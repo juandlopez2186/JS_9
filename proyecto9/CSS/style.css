@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(10, 162, 218);
+    align-items: center;
+    display: grid;
+}
+.tecto{
+    display: flex;
+    justify-content: center;
+}
+body img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 1vh;
+    left: 1vh;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 30%;
+}
+h2{
+    padding-top: 2vh;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    }
+.formulario{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 1vh;
+    padding-top: 1%;
+    margin-left: 70vh;
+    margin-right: 70vh;
+    margin-top: 3vh;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5)
+}
+.formulario input{
+    border: solid rgb(10, 162, 218);
+    border-radius: 1vh;
+    width: 45vh;
+    height: 4vh;
+    margin: 1vh;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9)
+
+}
+.formulario input#agregar{
+    background-color: rgb(10, 162, 218);
+    height: 4.1vh;
+    cursor: pointer;
+}
+.listaEventos2{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 50vh; 
+    margin-left: 50vh;
+    background-color: white;
+    display: grid;
+    border-radius: 1vh;
+    width: 95vh;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5)
+}
+
+.evento{
+    align-self: center;
+    background-color: white;
+    border: 2px solid rgb(10, 162, 218);
+    border-radius: 1vh;
+    max-height:10vh ;
+    min-width: 50vh;
+    margin: 1vh;
+    width: 85vh;
+    max-width: 85vh;
+}
+.diasfaltantes{
+    color: green;
+    font-size: 30px;
+    padding-left: 0px;
+    position: relative;
+    overflow-x: initial;
+}
+.dias,.nombreEvento,.fechaEvento,.acciones{
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+}
+.dias{
+    font-size: 12px;
+    padding-left: 20px;
+}
+.nombreEvento{
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
+    left: 5vh;
+    bottom: 1.5vh;
+    overflow-x:initial;
+    min-width: 12vh;
+    width: 34vh;
+    max-width: 34vh;
+}
+.fechaEvento{
+font-size: small;
+position: relative;
+left: 14vh;
+right: 1vh;
+bottom: 2vh;
+
+font-size: 16px;
+}
+.acciones button{
+background-color: rgb(0, 225, 0);
+position: relative;
+left: 16vh;
+bottom: 2vh;
+height:7vh ;
+width: 9.4vh;
+border-radius: 1vh;
+font-weight: bold;
+}
+.acciones button:hover{
+    background-color: red;
+    color: azure;
+    cursor: pointer;
+}
